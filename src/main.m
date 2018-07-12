@@ -5,7 +5,7 @@
 
 %Boyd & Vandenberghe used as reference.
 
-CVX_CHECK='ON'; %Switch it 'ON' to verify our solution with CVX's solution
+CVX_CHECK='ON'; %Set it to 'ON' to verify our solution with CVX's solution
 
 finite_diff_eps = 1e-4;         %finite difference to calculate the numerical gradient
 stopping_eps = 1e-4;            %stopping check (xnew -x) < epsilon, terminate. 
