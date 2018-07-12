@@ -59,7 +59,7 @@ x0_feasible = C\d; %only satisfies the equality constraint, not necessarily the 
 % g_i(x)<=s for all i
 % C*x=d
 
-[x_feasible, feasibility] = phase1_newton_descent_w_inequality_constraints(fi, C, x0_feasible, finite_diff_eps, stopping_eps, alpha, beta);% YOURS to implement
+[x_feasible, feasibility] = firstphase_newton_descent_w_inequality_constraints(fi, C, x0_feasible, finite_diff_eps, stopping_eps, alpha, beta);% YOURS to implement
 
 %The final element of x_feasible containts the value of s, we can discard
 %it.
