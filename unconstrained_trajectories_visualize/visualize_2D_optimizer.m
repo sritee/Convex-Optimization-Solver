@@ -1,4 +1,5 @@
 function[]=visualize_2D_optimizer(f,traj)
+%For 2D function contour + trajectory visualization.
     x = linspace(-3,3,30);
     y = linspace(-3,3,30);
     [X,Y] = meshgrid(x,y);
