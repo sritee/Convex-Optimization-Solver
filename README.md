@@ -12,7 +12,7 @@ Solutions were verified for multiple problem instances with **CVX**. Set variabl
 
 We use a feasible start path following algorithm, with a log barrier function. Newton's descent, with backtracking line search for the step size choice is used. 
 
-TODO: Extend to solve general semi-definite programs, as currently, equalities, objective and inequalities involve real numbers.
+TODO: Extend to solve general semi-definite programs as currently, objective and inequalities involve functions over the real numbers.
 
 
              
