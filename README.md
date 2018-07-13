@@ -31,8 +31,11 @@ Comparison of Gradient Descent and Newton's method with backtracking line search
              
 
 
+<p align="center"> 
+   <b>TODO</b>
+   </p>
 
-<b>TODO:</b> Extend to solve general semi-definite programs as currently, objective and inequalities involve functions over the real numbers.
+Extend it to solve general semi-definite programs as currently, objective and inequalities involve functions over the real numbers.
 
 
              
