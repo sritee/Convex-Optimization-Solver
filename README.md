@@ -1,4 +1,5 @@
-# ConvexOptimization Solver
+
+#Primal Interior Point method with feasible start path following algorithm
 
 This is an optimization routine implemented in MATLAB for solving convex optimization problems. This solver was built as an educational exercise while studying the references cited, and auditing the course Advanced Robotics (CS287) by UC Berkeley. The code is heavily commented.
 
