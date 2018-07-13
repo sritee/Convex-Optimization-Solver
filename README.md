@@ -1,5 +1,4 @@
-
-#Primal Interior Point method with feasible start path following algorithm
+   # Primal Interior Point method with feasible start  descent
 
 This is an optimization routine implemented in MATLAB for solving convex optimization problems. This solver was built as an educational exercise while studying the references cited, and auditing the course Advanced Robotics (CS287) by UC Berkeley. The code is heavily commented.
 
@@ -16,6 +15,7 @@ Comparison of Gradient Descent and Newton's method, equipped with backtracking l
 
 <p align="center">
 <b>HOWTO</b>
+  The function fi in main.m encodes the objective function, and the inequalities. The equalities should be encoded in the matrix C, such that C*x=d. Example 3 function with box constraints have been provided for starters. main.m first calls Phase 1 method, for finding a strictly feasible starting point. This then calls Phase2, the newton's descent with backtracking line search.
 </p>
 
 
