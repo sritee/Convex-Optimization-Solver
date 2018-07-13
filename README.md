@@ -21,8 +21,10 @@ Comparison of Gradient Descent and Newton's method with backtracking line search
 
 
 
-<p align="center"> <b>References</b> <- 1) Convex optimization by Boyd and Vandenberghe.
-             2) Numerical Optimization by Nocedal and Wright.
+<p align="center"> 
+   References
+    1) Convex optimization by Boyd and Vandenberghe.
+    2) Numerical Optimization by Nocedal and Wright.
 </p>
              
 Solutions were verified for multiple problem instances with CVX. Set variable CVX_check = 'ON' if you have CVX installed and want to verify your solution. 
