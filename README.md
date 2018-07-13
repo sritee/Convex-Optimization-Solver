@@ -9,7 +9,7 @@ We solve the problem assuming convex objective function, linear equality constra
   <img src="https://github.com/sritee/ConvexOpt-Interior-Point-Method/blob/master/unconstrained_trajectories_visualize/GradientDescent_backtracking.jpg" width="350" title="hover text">
   <img src="https://github.com/sritee/ConvexOpt-Interior-Point-Method/blob/master/unconstrained_trajectories_visualize/NewtonMethod_backtracking.jpg" width="350" alt="accessibility text">
 
-Comparison of Gradient Descent and Newton's method, equipped with backtracking line search on unconstrained problem.
+Comparison of Gradient Descent and Newton's method with backtracking line search on an unconstrained problem.
 </p>
 
 
