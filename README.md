@@ -3,7 +3,14 @@
 This is an optimization routine implemented in MATLAB for solving convex optimization problems. This solver was built as an educational exercise while studying the references cited, and auditing the course Advanced Robotics (CS287) by UC Berkeley. The code is heavily commented.
 
 
-We solve the problem assuming convex objective function, linear equality constraint, and convex inequalities i.e - the commonly accepted convex optimization problem. The solver assumes twice differentiability in the function domains.
+We solve the problem assuming convex objective function, linear equality constraint, and convex inequalities i.e - the commonly accepted convex optimization problem. The solver assumes twice differentiability in the function domains. The 2 images below show a comparison of Normal Gradient Descent and Newton's method, both equipped with backtracking line search on a convex function.
+
+
+
+<p align="center">
+  <img src="https://github.com/sritee/ConvexOpt-Interior-Point-Method/blob/master/unconstrained_trajectories_visualize/GradientDescent_backtracking.jpg" width="350" title="hover text">
+  <img src="https://github.com/sritee/ConvexOpt-Interior-Point-Method/blob/master/unconstrained_trajectories_visualize/NewtonMethod_backtracking.jpg" width="350" alt="accessibility text">
+</p>
 
 **References** - 1) Convex optimization by Boyd and Vandenberghe.
              2) Numerical Optimization by Nocedal and Wright.
