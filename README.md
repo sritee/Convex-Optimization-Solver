@@ -35,7 +35,7 @@ Comparison of Gradient Descent and Newton's method with backtracking line search
    <b>TODO</b>
    </p>
 
-* Extend it to solve general semi-definite programs as currently, inequalities are w.r.t the non-negative orthant. 
+* Extend it to solve general semi-definite programs as, currently, inequalities are w.r.t the non-negative orthant. 
 * Handle non-differentiablity using methods like Proximal-Newton.
 
 
