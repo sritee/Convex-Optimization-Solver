@@ -1,6 +1,6 @@
    # Primal Interior Point method with feasible start
 
-This is an optimization routine implemented in MATLAB for solving convex optimization problems. This solver was built as an educational exercise while studying the references cited, and self-studying the course materials of Advanced Robotics (CS287) taught at UC Berkeley. The code is heavily commented.
+This is an optimization routine implemented in MATLAB for solving convex optimization problems. This solver was built as an educational exercise.
 
 
 We solve the problem assuming convex objective function, linear equality constraint, and convex inequalities. The solver assumes twice differentiability in the function domains. 
