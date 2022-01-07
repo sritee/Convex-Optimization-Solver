@@ -1,6 +1,6 @@
    # Primal Interior Point method with feasible start
 
-This is an optimization routine implemented in MATLAB for solving convex optimization problems. This solver was built as an educational exercise.
+This is an optimization routine implemented in MATLAB for solving convex optimization problems. This solver was built as an educational exercise while going through the material in the references. 
 
 
 We solve the problem assuming convex objective function, linear equality constraint, and convex inequalities. The solver assumes twice differentiability in the function domains. 
@@ -25,11 +25,11 @@ Comparison of Gradient Descent and Newton's method with backtracking line search
    <b>References</b>
    </p>
    
- * Convex optimization by Boyd and Vandenberghe.
+ * https://people.eecs.berkeley.edu/~pabbeel/cs287-fa13/ (starter code in an assignment used to bootstrap this repo)
+  * Convex optimization by Boyd and Vandenberghe
   * Numerical Optimization by Nocedal and Wright.
 
              
-
 
 <p align="center"> 
    <b>TODO</b>
